@@ -21,11 +21,11 @@
     </style>
   </header>
 
-   <body >
+   <body id="f" >
     <div >
-        <div class="wrapper">
+        <div class="wrapper" >
             <!--Top menu -->
-            <div class="sidebar" >
+            <div class="sidebar"  >
                   <!--profile image & text-->
                   <div class="profile" >
                      <img src="images/Romany.jpg" alt="profile_picture">
@@ -98,7 +98,7 @@
     
     </div>
     
-    <div>
+    
         <img src="images/Romany.jpg" width="30%" height="30%" alt="Romany">
         <h1 id="colorful" >Hello</h1>
         <h2>About me</h2>
@@ -129,6 +129,7 @@
      </div>
 
  <script>
+  document.querySelector("body").classList.toggle("active");
  var hamburger = document.querySelector(".hamburger");
     hamburger.addEventListener("click", function(){
         document.querySelector("body").classList.toggle("active");
