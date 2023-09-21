@@ -29,6 +29,13 @@ width: 180px;
     width: 300px;
     height: 300px;
 }
+.reviews{
+
+    width: 700px;
+    height:310px ;
+    max-height: 500px;
+    max-width: 900px;
+}
 
 @media(max-width: 567px) {
 
@@ -53,5 +60,11 @@ width: 180px;
         width: 50%;
 
         height: 50%;
+    }
+    .reviews{
+
+        width: 100%;
+        max-height: 500px;
+        max-width: 900px;
     }
 }
