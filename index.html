@@ -1,146 +1,290 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
-  <header>
-    <title>Romani</title>
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="css/mydesign.css">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="name" content="Romany's Portal"><!-- for search engine-->
-    <!-- remove the following line after you are happy with your Website
-       so that search engines will index it! -->
-    <!--<meta name="robots" content="noindex, nofollow"> --><!-- search engine not show it-->
-    <style>   
-    </style>
-  </header>
+<head>
+    <title>Romani's Porfolio</title>
+    <meta name="name" content="Romani's Porfolio">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-   <body id="f" >
-    <div >
-        <div class="wrapper" >
-            <!--Top menu -->
-            <div class="sidebar"  >
-                  <!--profile image & text-->
-                  <div class="profile" >
-                     <img src="images/Romany.jpg" alt="profile_picture">
-                     <h3>Romani Nasrat</h3>
-                     <p>Android Developer</p>
-                     <!--menu item-->
-                     <ul id="ule">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- Corrected Bootstrap CSS and JavaScript CDN links -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</head>
+<style>
+
+</style>
+
+<body>
+    <section>
+        <nav class="navbar  navbar-expand-lg navbar-light bg-dark fixed-top  " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="font-family: 'Dancing Script', cursive; font-weight: bolder;"
+                    href="#">Romani</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                    aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+
+                    <button class="btn "><i class="bi bi-box-arrow-in-right" style="font-size: 1.5rem;">
+                            login</i></button>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- start my welcome porftolio section -->
+    <section id="home" class="container-fluid text-center mt-5">
+        <div class="justify-content-center mt-5 ">
+            <img src="images/me1.jpg" class="profileimg mt-5">
+            <h1 class="display-2 text-center mt-5">Hey, i'm Romani</h1>
+            <h2 class="text-center">AI/Ml Engineer</h2>
+        </div>
+    </section>
+    <!-- end my welcome porftolio section -->
+    <section id="about" class="container mb-5">
+        <br><br><br>
+        <h3>About Me</h3>
+        <br>
+        <p>
+            Hi!! My name Is Romani
+            I’m a student in benha, faculty of computers and artificial intelligence.
+            i'm fast learner. i love programming, new technologies, chess and problem solving
+            i'm studying Artificial intelligence, computer science and working with most common technologies like
+            combine ML models with Deep Learning models.
+            also working with Transfer Learning ,Generative models.
+            in addition to self learning Android Development with kotlin and graduated from “Android Kotlin Developer
+            Nanodegree” at Udacity
+            also i have experience in desktop apps development with java and python
+            i use my experience to combine AI and create intelligent Apps and Projects like chat bots, image
+            classification, speech recognition and articles clustering, object detection and classification. and others
+            Skills: ML, DL, NLP ,Kotlin, OOP, android development, OpenCV ,desktop development, APIs, java, C++, python
+        </p>
+    </section>
+
+    <!--start of my work section -->
+    <section id="projects"
+        class="container-fluid mb-5  text-center d-flex flex-column justify-content-center align-items-center ">
+        <br> <br> <br>
+        <h2 class="text-start container">Projects</h2>
+        <br> <br> <br>
+        <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center align-items-center ">
+
+            <div class="col mt-2">
+                <div class="card  text-light bg-dark  customcard" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Blood Bank ">
+                    <!-- <div class="card-header text-center">Java project</div> -->
+                    <img src="images/donorSignUp.png" class="card-img-top  rounded-start" style="size: 50%;" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title">Blood Bank Management System</h6>
+                        <p class="card-text  text-danger ">system designed to help hospital
+                            staff
+                            to manage the blood stock and
+                            operation</p>
+                        <a href="https://github.com/romanyn36/Blood_Bank_Management_System"
+                            class="btn btn-outline-primary mt-1 " target="_blank"><i class="bi bi-github"></i>
+                            Github</a>
+                    </div>
+                    <!-- <div class="card-footer">#java</div> -->
+                </div>
+            </div>
+
+            <div class="col mt-2 ">
+                <div class="card text-light bg-dark  customcard " data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Simple ChatBot With NLP ">
+                    <!-- <div class="card-header text-center">Java project</div> -->
+                    <img src="images/chatbot.jpg" class="card-img-top  rounded-start" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title">Simple ChatBot With NLP</h6>
+                        <p class="card-text text-danger">
+                            <!-- intelligent chatbot to enhance customer support.it designed using NLP  -->
+                            and neural networks to assist in resolving queries related to a specific service
+                        </p>
+                        <a href="#" class="btn btn-outline-primary mt-1"><i class="bi bi-github"></i> Github</a>
+                    </div>
+                    <!-- <div class="card-footer">#java</div> -->
+                </div>
+            </div>
+
+            <div class="col mt-2">
+                <div class="card  text-light bg-dark  customcard " data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Blood Bank ">
+                    <!-- <div class="card-header text-center">Java project</div> -->
+                    <img src="images/donorSignUp.png" class="card-img-top  rounded-start" style="size: 50%;" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title">Blood Bank Management System</h6>
+                        <p class="card-text text-danger ">system designed to help hospital
+                            staff
+                            to manage the blood stock and
+                            operation</p>
+                        <a href="#" class="btn btn-outline-primary mt-1"><i class="bi bi-github"></i> Github</a>
+                    </div>
+                    <!-- <div class="card-footer">#java</div> -->
+                </div>
+            </div>
+
+            <div class="col mt-2">
+                <div class="card  text-light bg-dark  customcard " data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Blood Bank ">
+                    <!-- <div class="card-header text-center">Java project</div> -->
+                    <img src="images/donorSignUp.png" class="card-img-top  rounded-start" style="size: 50%;" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="card-title">Blood Bank Management System</h6>
+                        <p class="card-text text-danger">system designed to help hospital
+                            staff
+                            to manage the blood stock and
+                            operation</p>
+                        <a href="#" class="btn btn-outline-primary mt-1"><i class="bi bi-github"></i> Github</a>
+                    </div>
+                    <!-- <div class="card-footer">#java</div> -->
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- end of my work section -->
+
+
+    <footer class="footer container-fluid bg-dark p-3 rounded w-100">
+        <div class="container text-center">
+            <div class="row mt-2">
+                <div class="col-5  p-0">
+                    <h2 class=" m-1 text-start" style="font-family: 'Dancing Script', cursive; font-weight: bolder;">
+                        Romani</h2>
+                </div>
+
+                <div class="col-2 p-0 text-start fw-bold">
+                    Links
+                </div>
+
+                <div class="col-5 fw-bold ">
+                    Contact Us
+                </div>
+
+            </div>
+
+            <!-- 2nd row -->
+            <div class="row mt-2">
+                <div class="col-5 p-0 text-start" style="font-family: 'Dancing Script', cursive; ">
+                    for all Softwarw Developments,AI/ML Web/Andriod.<br>lets build your bussniess,we here for you
+                </div>
+                <div class="col-2  text-start p-0">
+                    <ul class="m-0 p-0" style="list-style: none;">
                         <li>
-                        <a href="index.html" class="active">
-                        <span class="icon"><i class="fas fa-home"></i></span>
-                        <span class="item">Home</span>
-                        </a>
+                            <a class="link-secondary" aria-current="page" href="#home">Home</a>
                         </li>
                         <li>
-                          <a href="career.html">
-                          <span class="item">My Career</span>
-                       </a>
-                      </li>
-                      
-                    <li>
-                      <a href="education.html">
-                        <span class="item">Education</span>
-                    </a>
-                </li>
-                <li>
-                       <a href="gallery.html">
-                         <span class="item">Gallery</span>
-                      </a>
-                     </li>
-                <li>
-                    <a href="mylife.html">
+                            <a class="link-secondary" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="link-secondary" href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a class="link-secondary" href="#">Contact</a>
+                    </ul>
+                </div>
 
-                        <span class="item">my life & interests</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="references.html">
-                       
-                        <span class="item">Important References </span>
-                    </a>
-                </li>
-          </ul>
-        </div>
+
+                <div class="col-5 text-center align-items-center">
+                    <!-- <p>get in touch with us via enmail</p>
+                    <a class="btn btn-outline-danger rounded-pill" role="button">E-mail Us</a> -->
+
+
+
+                    <a href="https://www.facebook.com/romanyn3/" target="_blank"
+                        class="btn rounded-pill btn-outline-info linksheader" role="button"><i
+                            class="bi bi-facebook linksheader"></i>
+                        Facebook</i></a>
+                    <br>
+                    <a href="https://www.instagram.com/romanyn36/?fbclid=IwAR0RStGByLIafD2ocB18UQA7j-bmHtGx-f535V031SH_92dVb6dtWzpglkI"
+                        class="btn rounded-pill btn-outline-danger linksheader" role="button"><i
+                            class="bi bi-instagram linksheader"> instagram</i></a>
+                    <br>
+                    <a href="https://twitter.com/romanyn36" target="_blank"
+                        class="btn rounded-pill btn-outline-info linksheader" role="button"><i
+                            class="bi bi-twitter linksheader"> Twitter</i></a>
+
+
+                </div>
             </div>
-                  <div class="section" >
-                   <div class="top_navbar"  >
-                       <div class="hamburger" >
-                    <a href="#" >
-                        <i class="fas fa-bars"></i>
-                    </a>
-                        </div>
-                    </div>
+            <!-- 3rd row -->
 
-                 </div>   
-
-</div>
-        
-    </div>
-    
-    
-    
-    
-        <img src="images/Romany.jpg" width="30%" height="30%" alt="Romany">
-        <h1 id="colorful" >Hello</h1>
-        <h2>About me</h2>
-        <p>My name is Romani</p>
-        <p> I was born in 17/9/2002 :20y </p>
-        <p>I'm android App developer</p>
-        <p>Ai Student, joined Banha University in 2020 </p>
-        <p>Faculty of Computers & Artificial Intelligence</p>
-        <p>B.S. Computer Science</p>
-        <p>Department of Artificial Intelligence  </p>
-        <p>I love programming, chess ,proplem solving and games </p>
-        <p>Fast learner</p>
-        <h2>Credentials</h2>
-        <p><b><a href="Romani-Nasrat-Resume-SW.pdf" target="_blank" >|| My Resume</a></b> <br>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/romanyn36/"  target="_blank">Linkedin</a></li>
-            <li><a href="https://github.com/romanyn36"  target="_blank">Github</a></li>
-            <li><a href="https://www.facebook.com/romanyn3/"  target="_blank">FaceBook</a></li>
-            <li><a href="https://stackoverflow.com/users/17348975/romany"  target="_blank">Stack Over Flow</a></li>
-            <li><a href="https://twitter.com/romanyn36">Twitter</a></li>
-            <li><a href="mailto:Romani20894@fci.bu.edu.eg">E-mail</a></li>
-            <!-- <li><a href="romany.html" target="_blank">Romany</a></li>-->
-            
-      </ul>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:Romani20894@fci.bu.edu.eg"> Romani20894@fci.bu.edu.eg</a></p>
-   
-     </div>
-
- <script>
-  document.querySelector("body").classList.toggle("active");
- var hamburger = document.querySelector(".hamburger");
-    hamburger.addEventListener("click", function(){
-        document.querySelector("body").classList.toggle("active");
-    });
-  </script>
-  
-  
-
-  
-  </body>
- 
-  <footer>
-    <hr>
-      <code>Copyright (C) 2022 <b>Romani</b></code>
-  </footer>
+            <div class="row mt-4 ">
+                <div class="col  p-3 m-2">
+                    <h5 class=" m-1" style=" font-weight: bolder; color: rgb(127, 126, 126);">
+                        All Rights (C) Reserved for <span
+                            style="font-weight: bolder;color: rgb(200, 189, 189);">Romani</span></h5>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<!-- Tooltip script -->
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
 
 </html>
-
-
-
-
-
-
-
-

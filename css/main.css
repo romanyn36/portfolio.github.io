@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+li {
+    margin: 5px;
+    margin-left: 0;
+
+}
+
+.customcard {
+    height: fit-content;
+    max-width: 18rem;
+    max-height: 25rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 25rem;
+    border: 1px solid #0d6efd;
+}
+
+.linksheader {
+    font-size: medium;
+    margin: 4px 0 5px 0;
+width: 180px;
+
+}
+.profileimg {
+    width: 300px;
+    height: 300px;
+}
+
+@media(max-width: 567px) {
+
+    .customcard {
+
+        margin: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        height: fit-content;
+        /* width: 200%; */
+        /* padding: 0; */
+    }
+
+    .linksheader {
+        font-size: small;
+        /* max-height: 100px; */
+        width: 100%;
+    }
+
+    .profileimg {
+        width: 50%;
+
+        height: 50%;
+    }
+}
