@@ -77,8 +77,9 @@ width: 180px;
     }
     .reviews{
         width: 100%;
-        height: 150%;
+        height: 100%;
         max-width: 900px;
+        padding: 0%;
         padding-bottom: 5px;
     }
 }
