@@ -8,6 +8,10 @@ li {
     margin-left: 0;
 
 }
+label{
+    text-align: left;
+    width: 200px;
+}
 
 .customcard {
     height: fit-content;
@@ -22,25 +26,31 @@ li {
 .linksheader {
     font-size: medium;
     margin: 4px 0 5px 0;
-width: 180px;
+    width: 180px;
 
 }
+
+meter {
+    width: 240px;
+}
+
 .profileimg {
     width: 300px;
     height: 300px;
 }
-.reviewscontainer{
+
+.reviewscontainer {
 
     width: 700px;
-    height:300px ;
+    height: 300px;
     max-height: 500px;
     /* max-width: 900px; */
 }
 
-.reviews{
+.reviews {
 
     width: 700px;
-    height:280px ;
+    height: 280px;
     max-height: 500px;
     max-width: 900px;
     padding: 10px;
@@ -70,17 +80,32 @@ width: 180px;
 
         height: 50%;
     }
-    .reviewscontainer{
+
+    .reviewscontainer {
         width: 100%;
         height: 100%;
         min-height: 350px;
         max-width: 100%;
     }
-    .reviews{
+
+    .reviews {
         width: 100%;
         height: 100%;
         max-width: 900px;
         padding: 0%;
         padding-bottom: 30px;
     }
+
+    meter {
+        width: 150px;
+    }
+    label{
+        text-align: left;
+        width: 100px;
+    }
 }
+
+
+
+
+/* skills */
