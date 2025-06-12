@@ -33,15 +33,123 @@
 
 </head>
 
-
-
-
-</head>
 <style>
 
 </style>
 
 <body>
+    <!-- Old Portfolio Alert - Enhanced -->
+    <div class="alert alert-info alert-dismissible fade show fixed-top shadow-lg" role="alert" 
+     style="z-index: 1060; margin-top: 70px; border: none; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); backdrop-filter: blur(10px);">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap">
+        <div class="d-flex align-items-center">
+            <div class="alert-icon me-3">
+                <i class="bi bi-info-circle-fill text-white" style="font-size: 1.5rem; animation: pulse 2s infinite;"></i>
+            </div>
+            <div class="alert-content">
+                <div class="alert-text text-white">
+                    <strong style="font-size: 1.1rem;">📢 Portfolio Update Notice</strong>
+                    <p class="mb-2 mt-1" style="font-size: 0.95rem; opacity: 0.95;">
+                        You're viewing an older version of my portfolio. Check out my latest work with enhanced features and updated projects!
+                    </p>
+                    <a href="https://romani-nasrat.com/" 
+                       class="btn btn-light btn-sm rounded-pill px-3 py-2 text-decoration-none fw-bold shadow-sm"
+                       target="_blank"
+                       style="transition: all 0.3s ease; background: rgba(255,255,255,0.95);"
+                       onmouseover="this.style.transform='scale(1.05)'; this.style.background='white'"
+                       onmouseout="this.style.transform='scale(1)'; this.style.background='rgba(255,255,255,0.95)'">
+                        click: https://romani-nasrat.com/ 🚀
+                    </a>
+                    <div class="mt-2" style="font-size: 0.85rem; opacity: 0.8; font-style: italic;">
+                        <span class="text-warning">🔥</span> الترجمة: تم استبدالك يا معلم ببورتفوليو جديد <span class="text-warning">🔥</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <button type="button" class="btn-close btn-close-white ms-3" 
+                data-bs-dismiss="alert" 
+                aria-label="Close"
+                style="filter: brightness(0) invert(1); opacity: 0.8; transition: opacity 0.3s ease;"
+                onmouseover="this.style.opacity='1'"
+                onmouseout="this.style.opacity='0.8'">
+        </button> -->
+    </div>
+</div>
+
+<style>
+/* Enhanced Alert Styles */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.alert.fixed-top {
+    animation: slideDown 0.5s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .alert.fixed-top {
+        margin-top: 60px;
+        padding: 1rem 0.5rem;
+    }
+    
+    .alert-content .alert-text {
+        font-size: 0.9rem;
+    }
+    
+    .alert-content .alert-text p {
+        font-size: 0.85rem;
+    }
+    
+    .alert-content .btn {
+        font-size: 0.85rem;
+        padding: 0.375rem 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .alert .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .alert-icon {
+        margin-bottom: 0.5rem;
+        margin-right: 0 !important;
+    }
+    
+    .btn-close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        margin: 0 !important;
+    }
+}
+
+/* Smooth dismiss animation */
+.alert.fade {
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.alert.fade:not(.show) {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+</style>
+
     <section>
         <nav class="navbar  navbar-expand-lg navbar-light bg-dark fixed-top  " data-bs-theme="dark">
             <div class="container-fluid">
@@ -82,10 +190,8 @@
             </div>
         </nav>
     </section>
-    <!-- iframe -->
-     <!-- <iframe src="romany.html" title="Catch The AI" style="width: 100%; height: 100vh; border: none;"></iframe> -->
-    <!-- start my welcome porftolio section -->
-    <section id="home" class="container-fluid text-center mt-5">
+    
+    <section id="home" class="container-fluid text-center" style="margin-top: 120px;">
         <div class="justify-content-center mt-5 ">
             <img src="images/me1.jpg" class="profileimg mt-5">
             <h1 class="display-2 text-center mt-5">Hey, i'm Romani</h1>
@@ -115,35 +221,6 @@
             have a strong understanding of Object-Oriented Programming (OOP) principles and SOLID design principles.
         </p>
     </section>
-    <!-- <a href="https://github.com/romanyn36" target="blank"><img align="center"
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-            alt="romanyn36" height="30" width="40" /></a> <a href="https://linkedin.com/in/romanyn36"
-        target="blank"><img align="center"
-            src="https://raw.githubusercontent.com/divicons/divicon/master/icons/linkedin/linkedin-original.svg"
-            alt="romanyn36" height="30" width="40" /></a> <a href="https://fb.com/romanyn3" target="blank"><img
-            align="center"
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
-            alt="romanyn36" height="30" width="40" /></a> <a href="https://twitter.com/romanyn36" target="blank"><img
-            align="center"
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-            alt="romanyn36" height="30" width="40" /> <a href="https://stackoverflow.com/users/17348975/romani"
-            target="blank"><img align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg"
-                alt="romanyn36" height="30" width="40" /></a><a href="https://kaggle.com/romanyn36" target="blank"><img
-                align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg"
-                alt="romanyn36" height="30" width="40" /></a> <a href="https://www.instagram.com/romanyn36"
-            target="blank"><img align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-                alt="romanyn36" height="30" width="40" /></a> <a href="https://www.leetcode.com/romanyn36"
-            target="blank"><img align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
-                alt="romanyn36" height="30" width="40" /></a> <a href="https://div.to/romanyn36" target="blank"><img
-                align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/divto.svg"
-                alt="romanyn36" height="30" width="40" /></a> -->
-
-    <!-- Start of Skills Section -->
     <section class="" id="skills">
         <br><br><br>
         <h2 class="text-start container">Skills</h2>
@@ -484,15 +561,6 @@
     <section id="services" class="container d-flex flex-column justify-content-center align-items-center ">
         <br><br><br>
         <h3>Our Services and Prouducts</h3><br><br><br>
-        <!-- <form class="m-2  w-100 d-flex justify-content-center">
-            <div class="input-group bg-danger rounded-pill" style="width: 75%;">
-                <input type="search " class="form-control " style=" border-top-left-radius: 40px ;
-                border-bottom-left-radius: 40px;" placeholder="Serach a Service">
-                <button type="submit " class=" text-light bg-info input-group-text text-center border-0 rounded-" style=" border-top-right-radius: 40px ;
-                border-bottom-right-radius: 40px;"><i class="bi bi-search ps-2 pe-2 pt-1 pb-1" style="font-size: 1.5rem;
-                        "></i></button>
-            </div>
-        </form> -->
         <div class="card-group mt-5 text-center ">
             <div class="card m-2 bg-dark text-light">
                 <!-- <img src="..." class="card-img-top" alt="..."> -->
@@ -740,16 +808,8 @@
                             class="bi bi-facebook linksheader"></i>
                         Facebook</i></a>
                     <br>
-                    <a href="https://www.instagram.com/romanyn36/?fbclid=IwAR0RStGByLIafD2ocB18UQA7j-bmHtGx-f535V031SH_92dVb6dtWzpglkI"
-                        class="btn rounded-pill btn-outline-danger linksheader" role="button"><i
-                            class="bi bi-instagram linksheader"> instagram</i></a>
-                    <br>
-                    <a href="https://twitter.com/romanyn36" target="_blank"
-                        class="btn rounded-pill btn-outline-info linksheader" role="button"><i
-                            class="bi bi-twitter linksheader"> Twitter</i></a>
-                    <br>
 
-                    <a href="https://www.linkedin.com/in/romanyn36/" target="_blank"
+                    <a href="https://www.linkedin.com/in/romaninasrat/" target="_blank"
                         class="btn rounded-pill btn-outline-info linksheader" role="button"><i
                             class="bi bi-linkedin linksheader"> Linkedin</i></a>
                     <br>
